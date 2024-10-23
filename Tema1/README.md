@@ -11,10 +11,12 @@ Sistemul este alcătuit din mai multe LED-uri și două butoane care controleaz�
 
 ## Componente Utilizate
 
-- **LED-uri**:
-  - **YELLOW1_PIN (pin 10)** și **YELLOW2_PIN (pin 9)**: LED-uri galbene.
-  - **RED1_PIN (pin 8)** și **RED2_PIN (pin 7)**: LED-uri roșii.
-  - **RED_RGB_PIN (pin 6)**, **GREEN_RGB_PIN (pin 5)** și **BLUE_RGB_PIN (pin 4)**: LED RGB cu trei canale (roșu, verde, albastru) care indică starea sistemului.
+- 4x LED-uri (pentru a simula procentul de încărcare)
+- 1x LED RGB (pentru starea de liber sau ocupat)
+- 2x Butoane (pentru start încărcare și stop încărcare)
+- 8x Rezistoare (6x 330ohm, 2x 1K)
+- Breadboard
+- Linii de legătură
 
 - **Butoane**:
   - **START_PIN (pin 2)**: Buton pentru inițierea procesului de încărcare (configurat ca `INPUT_PULLUP`).
@@ -73,3 +75,16 @@ Sistemul este alcătuit din mai multe LED-uri și două butoane care controleaz�
 ## Comportament de Debounce
 
 Debouncing-ul este implementat pentru butoane pentru a preveni înregistrarea multiplă a unei singure apăsări din cauza zgomotului electric. Codul verifică dacă butonul a fost apăsat suficient timp pentru a înregistra o comandă validă.
+
+## Video Funcționalitate
+
+*(https://www.youtube.com/shorts/5eSCbqxtKIQ)
+*(https://www.youtube.com/shorts/p3MLGY-K6-I)
+
+## Poze
+
+*(https://drive.google.com/drive/u/0/folders/19ehLMEDbemLCpWyIvCER9za-9CVlQh1n)*(https://drive.google.com/drive/u/0/folders/19ehLMEDbemLCpWyIvCER9za-9CVlQh1n)
+
+## Schematica Electrică
+
+*(https://wokwi.com/projects/412560560721359873)*
