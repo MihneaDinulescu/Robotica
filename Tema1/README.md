@@ -1,4 +1,4 @@
-# Sistem de Control al Procesului de Încărcare cu Semnalizare LED
+# ⁠Sistem de încărcare a unui vehicul electric
 
 Acest proiect implementează un sistem de control pentru un proces de încărcare, cu semnalizare prin LED-uri. Sistemul este controlat de două butoane: unul pentru pornirea procesului (Start) și unul pentru oprire (Stop). LED-urile indică stările procesului de încărcare printr-o secvență luminoasă.
 
