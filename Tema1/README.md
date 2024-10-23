@@ -18,10 +18,6 @@ Sistemul este alcătuit din mai multe LED-uri și două butoane care controleaz�
 - Breadboard
 - Linii de legătură
 
-- **Butoane**:
-  - **START_PIN (pin 2)**: Buton pentru inițierea procesului de încărcare (configurat ca `INPUT_PULLUP`).
-  - **STOP_PIN (pin 3)**: Buton pentru oprirea procesului de încărcare (configurat ca `INPUT_PULLUP`).
-
 ## Variabile Cheie
 
 - **`buttonState`** și **`lastButtonState`**: Păstrează starea curentă și anterioară a butonului Start.
