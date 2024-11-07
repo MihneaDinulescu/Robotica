@@ -81,8 +81,7 @@ Debouncing-ul este implementat pentru butoanele de control pentru a preveni înr
 
 ## Video Funcționalitate
 
-- [Video 1](--)
-- [Video 2](--)
+- [Video](https://www.youtube.com/shorts/LxDtUrere-U)
 
 ## Poze
 
